@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s;
+}
+
+.container {
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.nome{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.desc {
+    color: black;
+    margin: 10px 0 20px;
+}
+
+.interesse{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: black;
+}
+
+footer {
+    margin-top: 20px;
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.dark-mode .interests li {
+    background: black;
+}
+
+#dark-mode-btn{
+    border-radius: 8px;
+}

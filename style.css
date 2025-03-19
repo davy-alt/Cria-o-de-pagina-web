@@ -61,13 +61,29 @@ footer {
     color: black;
 }
 
-.dark-mode {
-    background-color: rgb(61, 61, 61);
+.red-mode {
+    background-color: red;
+    color: white;
+    
+}
+
+.blue-mode{
+background-color: blue;
+color: white;
+}
+
+.green-mode{
+    background-color: green;
     color: white;
 }
 
+.reset-mode{
+    background-color: white;
+    color: black;
+}
+
 .dark-mode .interests li {
-    background: black;
+    background: yellow;
 }
 
 #dark-mode-btn{
